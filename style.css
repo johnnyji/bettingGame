@@ -1,0 +1,70 @@
+* {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  line-height: 140%;
+}
+
+
+.user-amount {
+  margin-left: 1em;
+}
+
+.result {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.win {
+  color: darkgreen;
+}
+
+.loss {
+  color: darkred;
+}
+
+form {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+form label {
+  font-weight: bolder;
+}
+
+form input[type=number] {
+  border: none;
+  color: darkgreen;
+  border-bottom: 3px solid lightgreen;
+}
+
+form input[type=number]:focus {
+  outline: none;
+  padding: 5px;
+}
+
+form input[type=submit],
+.restart {
+  margin-left: 1em;
+  border: none;
+  background-color: lightgreen;
+  color: white;
+  padding: 5px 15px;
+}
+
+form input[type=submit]:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+.restart {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
